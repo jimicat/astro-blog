@@ -7,8 +7,8 @@ import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://jimicat.github.io",
-  base: "/astro-blog",
+  site: "https://easay.pages.dev/",
+  base: "/",
   integrations: [tailwind(), sitemap(), mdx(), pagefind()],
   markdown: {
     shikiConfig: {
